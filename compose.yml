@@ -11,7 +11,7 @@ services:
   application:
     image: lathadevopsprof/automation:appimage
     ports:
-      - "2222:8080"
+      - "1235:8080"
     deploy:
       replicas: 3
     depends_on:
